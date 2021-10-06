@@ -51,16 +51,16 @@ public class Main {
         Inventory() {
             this.strategy = new BubbleSort();
         }
-        Sort getSortStrategy() {
+        Sort getSortStrategy() { // get the strategy
             return this.strategy;
         }
-        void setSortStrategy(Sort strategy) {
+        void setSortStrategy(Sort strategy) { // set the strategy
             this.strategy = strategy;
         }
     }
 
     class InventoryModule extends Inventory {
-
+        // whatever needs to be in the inventory module
     }
 
     Main() {
