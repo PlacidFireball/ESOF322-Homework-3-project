@@ -4,11 +4,7 @@
 * Implements changing algorithms on the fly. (the Strategy Pattern)
 * Compilation instructions:
 * I assume you have some jdk installed (I used openjdk-11) so you can build this.
-* I programmed this in Intellij, if you would like to clone this code,
-* you can clone it with
-* $ git clone https://github.com/PlacidFireball/ESOF322-Homework-3-project
-* and build it in IntelliJ.
-* Alternatively, this source file can be compiled in the command line like so:
+* This source file can be compiled in the command line like so:
 * $ javac Main.java
 * $ java Main
 * (to clean class files)
