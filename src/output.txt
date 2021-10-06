@@ -1,0 +1,45 @@
+ESOF 322 Homework 3 Commands
+inventory new - create a new inventory module
+sort <inventory number: int> - sort inventory module <inventory number>
+set <inventory number: int> <bubble, insertion, quick, merge> - set the
+		sorting method on inventory module <inventory number>
+help - display this prompt
+exit - quit the program
+Homework 3>
+inventory new
+Created new inventory, access by doing: set 1 <sort type> or sort 1
+Homework 3>
+inventory new
+Created new inventory, access by doing: set 2 <sort type> or sort 2
+Homework 3>
+inventory new
+Created new inventory, access by doing: set 3 <sort type> or sort 3
+Homework 3>
+set 1 insertion
+Homework 3>
+set 2 merge
+Homework 3>
+inventory new
+Created new inventory, access by doing: set 4 <sort type> or sort 4
+Homework 3>
+set 4 quick
+Homework 3>
+sort 1
+Using Bubble Sort
+Homework 3>
+sort 2
+Using Insertion Sort
+Homework 3>
+sort 3
+Using Merge Sort
+Homework 3>
+sort 4
+Using Quick Sort
+Homework 3>
+set 3 bubble
+Homework 3>
+sort 3
+Using Bubble Sort
+Homework 3>
+exit
+Exiting...
